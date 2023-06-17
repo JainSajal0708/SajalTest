@@ -1,21 +1,70 @@
-TEST
+# Getting Started with Create React App
 
-Q1. Mention the working of Internet Website in Terms of Front-end & Back-end Divisions? A working of a webpage is a combination of Working of frontend and backend through which a user can enter data and access or use our website. Front-end development focuses on the user-facing side of a website. Front-end developers ensure that visitors can easily interact with and navigate sites by using programming languages, design skills, and other tools. Back-end developers focus on the server side of websites. They use technical skills to perform the behind-the scenes work that creates a website's structure and overall functionality, allowing a site's front end to exist.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Q2. What are tags in HTML? Explain the each category of tag with an Example.
+## Available Scripts
 
-An HTML tag is a piece of markup language used to indicate the beginning and end of an HTML element in an HTML document. As part of an HTML element, HTML tags help web browsers convert HTML documents into web pages.There are many tags but all of the are not open or closed. There are two kinds of HTML tags: Paired:- Paired tags require an opening tag that turns a formatting feature on and a closing tag that turns the feature off. Paired tags must surround the text you want formatted with that feature.For example and Unpaired:-Unpaired tags work alone, and are usually placed before the text you want formatted.For example
+In the project directory, you can run:
 
-Q3. Explain the working Procedure of Virtual DOM.
+### `npm start`
 
-The virtual DOM provides a mechanism that abstracts manual DOM manipulations away from the developer, helping us to write more predictable code. It does so by comparing two render trees to determine exactly what has changed, only updating what is necessary on the actual DOM. Like React, Vue also employs this strategy.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Q4. Mention some Differences between MySQL and No SQL
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-MySQL:-1) MySQL is a relational database that is based on a tabular design. 2)A MySQL database is currently more popular.
+### `npm test`
 
-Nosql:-1) NoSQL is non-relational and has a document-based design. 2)Nosql is less popular.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Q5. Explain any one DBMS Technology in your own words.
+### `npm run build`
 
-Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data.A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database. There are many DBMS technolgies one of them is Oracle Oracle Database is a commercial relational database management system. It utilizes enterprise-scale database technology with a robust set of features right out of the box. It can be stored in the cloud or on-premises.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
